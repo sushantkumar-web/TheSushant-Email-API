@@ -2,6 +2,7 @@
 **A production-ready, multi-tenant email delivery infrastructure.**
 
 [Link to Live Landing Page](https://communication.thesushant.in)
+
 *Note: The core backend infrastructure is proprietary and closed-source. This repository serves as a technical case study and architectural overview.*
 
 ---
@@ -23,6 +24,43 @@ A high-throughput email API designed for developers. Built to handle transaction
 - **Auth:** Argon2id, Cloudflare Turnstile
 - **Infrastructure:** cPanel / Cloudflare / IMAP Bounce Parsing
 
-## 📸 Screenshots
+---
 
-*(I will add screenshots here)*
+## 📸 Platform Showcase
+
+### 📊 Dashboard & Analytics
+The user-facing portal for monitoring quotas, sends, and engagement.
+![Dashboard](dashboard.jpg)
+![Analytics](analytics.jpg)
+
+### ✉️ Email Lifecycle & API Logs
+Detailed tracking of every message, including delivery status, open events, and API key management.
+![Emails Log](emails.jpg)
+![Email Detail 1](email-detail-1.jpg)
+![Email Detail 2](email-detail-2.jpg)
+![API Keys](apikey.jpg)
+
+### ⚙️ Infrastructure & Operations
+Internal dashboards for managing queue health, cron workers, webhooks, and suppression lists.
+<details>
+  <summary><b>Click to expand Internal Ops Screenshots</b></summary>
+  <br>
+  
+  **Cron Worker Health**
+  ![Cron](cron.jpg)
+  
+  **Operations & Queue**
+  ![Operations](operations.jpg)
+  
+  **Webhooks & Retries**
+  ![Webhooks](webhooks.jpg)
+  
+  **Suppressions (Bounces/Complaints)**
+  ![Suppressions](suppressions.jpg)
+  
+  **Feedback Funnel**
+  ![Feedback](feedback.jpg)
+  
+  **Service Management**
+  ![Services](services.jpg)
+</details>
