@@ -1,5 +1,6 @@
 # TheSushant Communication API
 [![Better Stack Badge](https://incidents.betterstack.com/status-badges/v2/monitor/30i8z.svg)](https://incidents.betterstack.com/?utm_source=status_badge)
+
 **A production-ready, multi-tenant email delivery infrastructure.**
 
 [Live Platform](https://communication.thesushant.in) · [Documentation](https://docs.thesushant.cloud/docs/Communication/Introduction/) · [API Reference](https://docs.thesushant.cloud/docs/category/api-reference)
